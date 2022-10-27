@@ -14,13 +14,10 @@ import styles from './style/publicationSectionItem.module.css'
 
 // const images = require.context('../images', true);
 const PublicationsSectionItem = (props) => {
-    // console.log("imgpath: ", imgpath)
-    // console.log("imgsrc: ", require(`../images/${props.imgSrc}`).default)
-  console.log("jpublicationsSectionItem.props: ", props.pdfLink)
     return (
         <div className={styles.sectionItemDiv}>
             {/* <div> */}
-                <img className={styles.thumbnail} src={require(`../images/${props.imgSrc}`).default}/>
+                <img className={styles.thumbnail} src={`../images/${props.imgSrc}`} />
                 
             {/* </div> */}
             

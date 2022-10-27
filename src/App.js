@@ -13,6 +13,8 @@ import publicationsData from './_data/publications.json'
 import workData from './_data/work.json'
 import honorsData from './_data/honors.json'
 
+import React from 'react';
+
 function Lister(SectionData) {
   // console.log("SECTIONDATA: ", SectionData)
   const Content = SectionData.map( (data) => {
@@ -25,7 +27,7 @@ function Lister(SectionData) {
         desc2={data.desc2}
       />
     )
-  })
+  });
   return Content
 }
 
@@ -50,7 +52,7 @@ const Publications = publicationsData.map( (data) => {
       projectLink={data.projectLink}
     />
   )
-})
+});
 
 const parseJson = (jsondata) => {
   // jsondata is an array of dicts [{}, {}, ...]
@@ -70,9 +72,7 @@ const parseJson = (jsondata) => {
   //   })
   // }
   // console.log(jsondata)
-  
-  
-}
+};
 
 
 function App() {

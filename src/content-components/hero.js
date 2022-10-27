@@ -12,11 +12,13 @@ const Hero = () => {
             <div className={style.intro}>
                 <h1 className={style.title}>JAEHUN JUNG</h1>
                 <h2 className={style.about}>
-                I am an undergraduate in Computer Science at Seoul National University (SNU). 
-                I am fortunate to be advised by Prof. U Kang, and Prof. Jinwook Seo. 
-                My research interests lies in Information Extraction / Retrieval and Natural Language Processing. 
-                I am currently interested in extracting structured knowledge from language, 
-                and leveraging the knowledge for text generation.
+                  I am a Ph.D student in Computer Science at the University of Washington, advised by Yejin Choi.
+                  I work in the area of Natural Language Processing, and am particularly interested in
+                  generation and generation-guided reasoning.
+                </h2>
+                <h2 className={style.about}>
+                  I graduated from Seoul National University with Bachelor's degree in Computer Science. I was fortunate
+                  to be advised by Professor Jinwook Seo and Professor U Kang.
                 </h2>
 
                 <div className={style.links}>
@@ -27,24 +29,24 @@ const Hero = () => {
                     />
                     <PersonalLink 
                         imgSrc="github.svg" 
-                        linkTitle="/sharkmir1"
-                        href="https://github.com/sharkmir1"
+                        linkTitle="/jaehunjung1"
+                        href="https://github.com/jaehunjung1"
                     />
                     <PersonalLink 
                         imgSrc="email.png" 
-                        linkTitle="sharkmir1@snu.ac.kr"
+                        linkTitle="hoony123@cs.washington.edu"
                     />
 
                 </div>
             </div>
-            <img src={profilePic} className={style.profilePic}/>   
+            <img src={profilePic} className={style.profilePic} alt={"Profile Picture"}/>
            
                 
         </div>
         
     )
 
-}
+};
 
 
 export default Hero;

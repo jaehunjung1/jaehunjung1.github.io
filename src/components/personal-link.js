@@ -13,7 +13,7 @@ const PersonalLink = (props) => {
         
     )
 
-}
+};
 
 
 export default PersonalLink;

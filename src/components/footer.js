@@ -9,6 +9,6 @@ const Footer = () => {
             <p className={style.year}>© {new Date().getFullYear()}</p>
         </div>
     )
-}
+};
 
 export default Footer

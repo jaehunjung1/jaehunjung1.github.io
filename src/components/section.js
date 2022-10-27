@@ -15,7 +15,7 @@ const Section = ({sectionTitle, children}) => {
         
     )
 
-}
+};
 
 
 export default Section;

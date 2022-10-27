@@ -71,9 +71,9 @@ class Header extends Component {
                 
     
                 <button onClick={this.toggleNav} className={style.burger}>
-                    <div className={style.line1}></div>
-                    <div className={style.line2}></div>
-                    <div className={style.line3}></div>
+                    <div className={style.line1}/>
+                    <div className={style.line2}/>
+                    <div className={style.line3}/>
                 </button>
             </div>
             
