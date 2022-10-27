@@ -1,29 +1,17 @@
 {
-  "files": {
-    "main.css": "/static/css/main.10376213.chunk.css",
-    "main.js": "/static/js/main.975858f0.chunk.js",
-    "main.js.map": "/static/js/main.975858f0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1a878295.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1a878295.js.map",
-    "static/js/2.d56bbd2b.chunk.js": "/static/js/2.d56bbd2b.chunk.js",
-    "static/js/2.d56bbd2b.chunk.js.map": "/static/js/2.d56bbd2b.chunk.js.map",
-    "static/js/3.c9645663.chunk.js": "/static/js/3.c9645663.chunk.js",
-    "static/js/3.c9645663.chunk.js.map": "/static/js/3.c9645663.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.10376213.chunk.css.map": "/static/css/main.10376213.chunk.css.map",
-    "static/js/2.d56bbd2b.chunk.js.LICENSE.txt": "/static/js/2.d56bbd2b.chunk.js.LICENSE.txt",
-    "static/media/AttnIO.png": "/static/media/AttnIO.dfd5b8ac.png",
-    "static/media/DataHalo.png": "/static/media/DataHalo.ab377ac0.png",
-    "static/media/T-GAP.png": "/static/media/T-GAP.2b0cb48a.png",
-    "static/media/github.png": "/static/media/github.0fba703b.png",
-    "static/media/github.svg": "/static/media/github.e0df113a.svg",
-    "static/media/profilePic.JPG": "/static/media/profilePic.da28a1aa.JPG",
-    "static/media/tgap.png": "/static/media/tgap.e9301d47.png"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.1a878295.js",
-    "static/js/2.d56bbd2b.chunk.js",
-    "static/css/main.10376213.chunk.css",
-    "static/js/main.975858f0.chunk.js"
-  ]
+  "main.css": "/static/css/main.d7313e6e.chunk.css",
+  "main.js": "/static/js/main.a3008b41.chunk.js",
+  "main.js.map": "/static/js/main.a3008b41.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.1e435022.js",
+  "runtime~main.js.map": "/static/js/runtime~main.1e435022.js.map",
+  "static/js/2.e300c7b3.chunk.js": "/static/js/2.e300c7b3.chunk.js",
+  "static/js/2.e300c7b3.chunk.js.map": "/static/js/2.e300c7b3.chunk.js.map",
+  "static/js/3.568a3ed3.chunk.js": "/static/js/3.568a3ed3.chunk.js",
+  "static/js/3.568a3ed3.chunk.js.map": "/static/js/3.568a3ed3.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.9f3c019592a83c315f23a035880744b6.js": "/precache-manifest.9f3c019592a83c315f23a035880744b6.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.d7313e6e.chunk.css.map": "/static/css/main.d7313e6e.chunk.css.map",
+  "static/media/profilePic.JPG": "/static/media/profilePic.5141f2d2.JPG",
+  "static/media/tgap.png": "/static/media/tgap.0ced9720.png"
 }
