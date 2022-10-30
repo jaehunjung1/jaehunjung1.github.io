@@ -5,7 +5,7 @@
         "authors": "***Jaehun Jung***, Lianhui Qin, Sean Welleck, Faeze Brahman, Chandra Baghavatula, Ronan Le Bras, Yejin Choi",
         "conference": "The 2022 Conference on Empirical Methods for Natural Language Processing ***(EMNLP 2022)***.",
         "pdfLink": "[[[PDF]](pdf/Maieutic_Prompting.pdf/)",
-        "paperLink": "[[[Link]](https://arxiv.org/abs/2205.11822)",
+        "paperLink": "[[[Link]](https://arxiv.org/abs/2205.11822/)",
         "imgSrc": "Maieutic_Prompting.png"
     },
     {
@@ -13,7 +13,8 @@
         "title": "***Learning to Walk across Time for Interpretable Temporal Knowledge Graph Completion***",
         "authors": "***Jaehun Jung***, Jinhong Jung, U Kang",
         "conference": "The 27th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining ***(KDD 2021)***.",
-        "pdfLink": "[[[PDF]](pdf/T-GAP.pdf/)",
+        "pdfLink": "[[[PDF]](https://dl.acm.org/doi/pdf/10.1145/3447548.3467292/)",
+        "paperLink": "[[[Link]](https://dl.acm.org/doi/10.1145/3447548.3467292/)",
         "imgSrc": "T-GAP.png"
     },
     {
@@ -21,9 +22,9 @@
         "title": "***AttnIO: Knowledge Graph Exploration with In-and-Out Attention Flow for Knowledge-Grounded Dialogue***",
         "authors": "***Jaehun Jung***, Bokyung Son*, Sungwon Lyu*",
         "conference": "The 2020 Conference on Empirical Methods for Natural Language Processing ***(EMNLP 2020)***.",
-        "pdfLink": "[[[PDF]](pdf/AttnIO.pdf/)",
+        "pdfLink": "[[[PDF]](https://aclanthology.org/2020.emnlp-main.280.pdf/)",
         "paperLink": "[[[Link]](https://www.aclweb.org/anthology/2020.emnlp-main.280/)",
-        "talkLink": "[[[Talk]](https://slideslive.com/38938773)",
+        "talkLink": "[[[Talk]](https://slideslive.com/38938773/)",
         "imgSrc": "AttnIO.png",
         "description": "(* denotes equal contribution)"
     },
