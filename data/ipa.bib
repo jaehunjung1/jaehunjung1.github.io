@@ -1,0 +1,32 @@
+@inproceedings{lu-etal-2023-inference,
+    title = "Inference-Time Policy Adapters ({IPA}): Tailoring Extreme-Scale {LM}s without Fine-tuning",
+    author = "Lu, Ximing  and
+      Brahman, Faeze  and
+      West, Peter  and
+      Jung, Jaehun  and
+      Chandu, Khyathi  and
+      Ravichander, Abhilasha  and
+      Ammanabrolu, Prithviraj  and
+      Jiang, Liwei  and
+      Ramnath, Sahana  and
+      Dziri, Nouha  and
+      Fisher, Jillian  and
+      Lin, Bill  and
+      Hallinan, Skyler  and
+      Qin, Lianhui  and
+      Ren, Xiang  and
+      Welleck, Sean  and
+      Choi, Yejin",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.424",
+    doi = "10.18653/v1/2023.emnlp-main.424",
+    pages = "6863--6883",
+    abstract = "While extreme-scale language models have demonstrated exceptional performance on a variety of language tasks, the degree of control over these language models through pure prompting can often be limited. Directly fine-tuning such language models can be effective for tailoring them, but it can be either extremely costly (e.g., GPT-3) or not even feasible for the broader community (e.g., GPT-4). We propose Inference-time Policy Adapters (IPA), which efficiently tailors a language model such as GPT-3 without fine-tuning it. IPA guides a large base model during decoding time through a lightweight policy adapter trained to optimize an arbitrary user objective with reinforcement learning. On five challenging text generation tasks, such as toxicity reduction and lexically constrained generation, IPA consistently brings significant improvements over off-the-shelf language models. It outperforms competitive baseline methods, sometimes even including expensive fine-tuning. In particular, tailoring GPT-2 with IPA can outperform GPT-3, while tailoring GPT-3 with IPA brings a major performance boost over GPT-3 (and sometimes even over GPT-4). Our promising results highlight the potential of IPA as a lightweight alternative to tailoring extreme-scale language models.",
+}
