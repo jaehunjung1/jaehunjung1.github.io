@@ -1,0 +1,9 @@
+@misc{jung2024trustescalatellmjudges,
+      title={Trust or Escalate: LLM Judges with Provable Guarantees for Human Agreement},
+      author={Jaehun Jung and Faeze Brahman and Yejin Choi},
+      year={2024},
+      eprint={2407.18370},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2407.18370},
+}
