@@ -124,6 +124,15 @@ h2 {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
+.three {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
 .fade {
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
@@ -136,6 +145,12 @@ span.highlight {
 
 @media (max-width: 768px) {
   .image_part  {
+    display:none;
+  }
+}
+
+@media (min-width: 768px) {
+  .image_device  {
     display:none;
   }
 }
