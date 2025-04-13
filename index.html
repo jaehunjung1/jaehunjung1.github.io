@@ -24,15 +24,17 @@
                 </p>
                 <p>I'm a Ph.D student in computer science at the <a href="https://www.cs.washington.edu/" target=”_blank”>University of Washington</a>, advised by <a href="https://homes.cs.washington.edu/~yejin/" target=”_blank”>Yejin Choi</a>.</p>
 
-                My research focuses on <em>how to train and evaluate a model with a model, with minimal human supervision</em>. I am specifically excited in
-<!--                  My research focuses on generating high-quality data from language models, improving their reliability and controllability with minimal human supervision.-->
+                <p>My research focuses on <em>how to train and evaluate a model with a model, with minimal human supervision</em>. I am specifically excited in</p>
 
-                <ul>
-                  <li>Data Generation & Selection using Language Models</li>
-                  <li>Improving Reliability and Controllability of Language Models</li>
-                  <li>LLM-based Reasoning</li>
-                  <li>Behavioral Analysis of LLMs</li>
-                </ul>
+                <li><strong>Data Synthesis and Data Selection with Language Models</strong>: How do we define good data? Can we use this insight to generate synthetic data that are diverse, correct, and are helpful to model generalization?</li>
+                <li><strong>Science of Automated Evaluation</strong>: Can we use a model to reliably evaluate other models? How can we guarantee the automated rubrics will align with ours?</li>
+
+<!--                <ul>-->
+<!--                  <li>Data Synthesis / Selection with Language Models: </li>-->
+<!--                  <li>Improving Reliability and Controllability of Language Models</li>-->
+<!--                  <li>LLM-based Reasoning</li>-->
+<!--                  <li>Behavioral Analysis of LLMs</li>-->
+<!--                </ul>-->
                 <p>
                   Previously I was an undergrad at Seoul National University, advised by Professor <a href="https://datalab.snu.ac.kr/~ukang/" target=”_blank”>U Kang</a> and <a href="http://hcil.snu.ac.kr/people/jinwook-seo" target=”_blank”>Jinwook Seo</a>. I was also a part-time researcher in Kakao Enterprise, where I worked on knowledge-grounded dialogue agents.
                 </p>
@@ -53,14 +55,85 @@
               <tr>
               <td style="padding:10px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
-<!--                <p>-->
-<!--                  I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Representative papers are <span class="highlight">highlighted</span>.-->
-<!--                </p>-->
               </td>
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr>
+            <td class="image_part" style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" />
+                <img src='images/prismatic_synthesis.png' style="width:100%;position:absolute;top:0;bottom:0;margin:auto">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <div class="image_device" style="align-content: center;margin-bottom: 10pt">
+                <img src='images/prismatic_synthesis.png' style="margin-left:auto;margin-right:auto;display:block;width:50%;top:0;bottom:0;">
+              </div>
+              <a href="https://humdrum-horse-865.notion.site/Prismatic-Synthesis-G-Vendi-Score-How-Data-Diversification-makes-R1-32B-a-Better-Teacher-than-R1--1d0b2aef0417800bb20be23b032cd97f" target=”_blank”>
+                <span class="papertitle">Prismatic Synthesis & G-Vendi Score: How Data Diversification makes R1-32B a Better Teacher than R1-671B</span>
+              </a>
+              <br>
+              <strong>Jaehun Jung</strong>,
+              <a href="https://seungjuhan.me/">Seungju Han*</a>,
+              <a href="https://www.linkedin.com/in/ximing-lu-4aa9a51a0/">Ximing Lu*</a>,
+              <a href="https://skylerhallinan.com/" target=”_blank”>Skyler Hallinan*</a>,
+              <a href="#">Shrimai Prabhumoye</a>,
+              <a href="#">Mostafa Patwary</a>,
+              <a href="#">Mohammad Shoeybi</a>,
+              <a href="#">Bryan Catanzaro</a>,
+              <a href="https://homes.cs.washington.edu/~yejin/">Yejin Choi</a>
+              <br>
+              <em>preprint</em>, 2025
+              <br>
+              <a href="https://humdrum-horse-865.notion.site/Prismatic-Synthesis-G-Vendi-Score-How-Data-Diversification-makes-R1-32B-a-Better-Teacher-than-R1--1d0b2aef0417800bb20be23b032cd97f" target=”_blank”>blog</a>
+              <p></p>
+              <p>
+                We show that data diversity (measured by our proposed metric G-Vendi) strongly predicts with how model generalizes after training. We leverage this finding to strategically diversify synthetic reasoning data.
+                Our resulting datasets, despite generated by 32B LLM, leads to better performance in OOD than R1-671B generated & human-verified datasets.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="image_part" style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" />
+                <img src='images/retro-search.png' style="width:100%;position:absolute;top:0;bottom:0;margin:auto">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <div class="image_device" style="align-content: center;margin-bottom: 10pt">
+                <img src='images/retro-search.png' style="margin-left:auto;margin-right:auto;display:block;width:50%;top:0;bottom:0;">
+              </div>
+              <a href="https://arxiv.org/abs/2504.04383" target=”_blank”>
+                <span class="papertitle">Retro-Search: Exploring Untaken Paths for Deeper and Efficient Reasoning.</span>
+              </a>
+              <br>
+              <a href="https://www.linkedin.com/in/ximing-lu-4aa9a51a0/">Ximing Lu*</a>,
+              <a href="https://seungjuhan.me/">Seungju Han*</a>,
+              <a href="#">David Acuna Marrero*</a>,
+              <a href="https://hyunw.kim/">Hyunwoo Kim*</a>
+              <strong>Jaehun Jung*</strong>,
+              <a href="#">Shrimai Prabhumoye</a>,
+              <a href="https://muennighoff.github.io/">Niklas Muennighoff</a>,
+              <a href="#">Mostafa Patwary</a>,
+              <a href="#">Mohammad Shoeybi</a>,
+              <a href="#">Bryan Catanzaro</a>,
+              <a href="https://homes.cs.washington.edu/~yejin/">Yejin Choi</a>
+              <br>
+              <em>preprint</em>, 2025
+              <br>
+              <a href="https://arxiv.org/abs/2504.04383" target=”_blank”>paper</a>
+              /
+              <a href="data/retro-search.txt" target=”_blank”>bibtex</a>
+              <p></p>
+              <p>
+                Search-guided distillation mitigates under-thinking & over-thinking of reasoning models, while simultaneously improving the accuracy.
+              </p>
+            </td>
+          </tr>
 
           <tr>
             <td class="image_part" style="padding:20px;width:25%;vertical-align:middle">

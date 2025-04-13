@@ -1,0 +1,9 @@
+@misc{lu2025retrosearchexploringuntakenpaths,
+      title={Retro-Search: Exploring Untaken Paths for Deeper and Efficient Reasoning},
+      author={Ximing Lu and Seungju Han and David Acuna and Hyunwoo Kim and Jaehun Jung and Shrimai Prabhumoye and Niklas Muennighoff and Mostofa Patwary and Mohammad Shoeybi and Bryan Catanzaro and Yejin Choi},
+      year={2025},
+      eprint={2504.04383},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2504.04383},
+}
